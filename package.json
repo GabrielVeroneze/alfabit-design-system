@@ -1,7 +1,25 @@
 {
-    "name": "alfabit-design-system-tailwind",
+    "name": "alfabit-design-system",
     "version": "0.1.0",
     "private": true,
+    "description": "Design System baseado em React, Next.js e Tailwind, oferecendo componentes reutilizáveis e padrões visuais para projetos Alfabit.",
+    "homepage": "https://github.com/GabrielVeroneze/alfabit-design-system#readme",
+    "bugs": {
+        "url": "https://github.com/GabrielVeroneze/alfabit-design-system/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GabrielVeroneze/alfabit-design-system.git"
+    },
+    "license": "ISC",
+    "author": "Gabriel Veroneze",
+    "type": "module",
+    "main": "components/index.ts",
+    "files": [
+        "styles/globals.css",
+        "components/*",
+        "fonts/*"
+    ],
     "scripts": {
         "dev": "next dev --webpack",
         "build": "next build --webpack",
