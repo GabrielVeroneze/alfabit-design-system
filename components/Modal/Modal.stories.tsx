@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Meta, StoryObj } from '@storybook/nextjs-vite'
 import Modal, { ModalProps } from './Modal'
-import Button from '@/components/Button/Button'
-import Typography from '@/components/Typography/Typography'
+import Button from '../Button/Button'
+import Typography from '../Typography/Typography'
 
 const meta = {
     title: 'Design System/Molecules/Modal',

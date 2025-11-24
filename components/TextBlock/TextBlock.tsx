@@ -1,5 +1,5 @@
-import Box from '@/components/Box/Box'
-import Typography from '@/components/Typography/Typography'
+import Box from '../Box/Box'
+import Typography from '../Typography/Typography'
 
 export interface TextBlockProps extends React.HTMLAttributes<HTMLElement> {
     children: React.ReactNode

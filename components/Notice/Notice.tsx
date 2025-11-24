@@ -4,8 +4,8 @@ import {
     InformationCircleIcon,
     XMarkIcon,
 } from '@heroicons/react/24/solid'
-import Box from '@/components/Box/Box'
-import Typography from '@/components/Typography/Typography'
+import Box from '../Box/Box'
+import Typography from '../Typography/Typography'
 
 export interface NoticeProps extends React.HTMLAttributes<HTMLElement> {
     children?: React.ReactNode
