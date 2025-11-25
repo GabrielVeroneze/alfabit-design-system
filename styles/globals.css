@@ -58,10 +58,10 @@
     --text-color-gray-secondary: var(--text-secondary);
     --text-color-gray-tertiary: var(--text-tertiary);
 
-    --breakpoint-mobile: var(--breakpoint-mobile);
-    --breakpoint-tablet: var(--breakpoint-tablet);
-    --breakpoint-desktop: var(--breakpoint-desktop);
-    --breakpoint-tv: var(--breakpoint-tv);
+    --breakpoint-mobile: 640px;
+    --breakpoint-tablet: 1024px;
+    --breakpoint-desktop: 1440px;
+    --breakpoint-tv: 1920px;
 
     --shadow-sm: var(--shadow-sm);
     --shadow-md: var(--shadow-md);
