@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes } from 'react'
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-    children?: React.ReactNode
+    children: string
     variant?: 'primary' | 'secondary' | 'tertiary'
 }
 
@@ -32,7 +32,7 @@ const Button = ({
     disabled,
     ...rest
 }: ButtonProps) => {
-    const base = 'rounded-md px-6 py-2'
+    const base = 'rounded-md px-6 py-2 cursor-pointer'
 
     return (
         <button
