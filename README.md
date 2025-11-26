@@ -101,8 +101,9 @@ A biblioteca Alfabit-ui foi criada para funcionar em aplicações Next.js+Tailwi
         module.exports = nextConfig;
         ```
 
-    E agora você pode usar os componentes da biblioteca em suas páginas:
     ````
+
+E agora você pode usar os componentes da biblioteca em suas páginas:
 
 ```tsx
 'use client'
